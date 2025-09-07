@@ -7,12 +7,14 @@
  "engine": "InnoDB",
  "field_order": [
   "article_name",
-  "image",
   "author",
-  "description",
   "isbn",
+  "column_break_thqy",
   "status",
-  "publisher"
+  "publisher",
+  "image",
+  "section_break_h0od",
+  "description"
  ],
  "fields": [
   {
@@ -26,6 +28,7 @@
   {
    "fieldname": "image",
    "fieldtype": "Image",
+   "hidden": 1,
    "label": "Image"
   },
   {
@@ -53,12 +56,20 @@
    "fieldname": "publisher",
    "fieldtype": "Data",
    "label": "Publisher"
+  },
+  {
+   "fieldname": "column_break_thqy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_h0od",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-07 14:15:23.197731",
+ "modified": "2025-09-07 14:31:09.197184",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
